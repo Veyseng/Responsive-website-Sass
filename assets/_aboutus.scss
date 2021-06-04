@@ -1,0 +1,99 @@
+.con-aboutus{
+	background: url('/assets/cover-aboutus.jpg') no-repeat center center/cover;
+	height: auto !important;
+	padding: 2rem ;
+	width: 100% !important;
+	margin: 0 !important;
+	display: block;
+
+	.aboutus{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:flex-end;
+		height: 100vh;
+		background: rgba(247, 243, 243, 0.7);
+		backdrop-filter: saturate(180%) blur(10px);
+		border-radius: 10px;
+		padding: 2rem;
+		.whoweare{
+			margin: 2rem 3rem;
+			padding-left: 1vw;
+			border-left: 1px solid #fff;
+			h1{
+
+			}
+			p{
+				font-size: 1rem;
+			}
+		}
+		.vision{
+			padding: 1rem;
+			height: auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			padding-bottom: 3rem;
+			.vision-des{
+				width: 70%;
+				h1{
+					text-transform: capitalize;	
+					background: -webkit-linear-gradient(45deg, #F6C954, #EA5555);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					display: inline-block;
+				}
+				ul{
+					font-size: 1rem;
+					background-color: #EA5555;
+					color: #fff;
+					padding: 1rem;
+					list-style: none;
+					border-radius: 20px;
+					border-left: 2px solid #F6C954;
+				}
+			}
+			.vision-icon{
+				align-self: center;
+				color: #EA5555 !important;
+			}
+		}
+		.mission{
+			height: auto;
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			padding-top: 3rem;
+			.mission-des{
+				width: 70%;
+				h1{
+					text-transform: capitalize;	
+					background: -webkit-linear-gradient(45deg, #F6C954, #EA5555);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					display: inline-block;
+				}
+				ul{
+					font-size: 1rem;
+					background-color: #EA5555;
+					color: #fff;
+					padding: 1rem;
+					list-style: none;
+					border-radius: 20px;
+					border-left: 3px solid #F6C954;
+				}
+			}
+			.mission-icon{
+				width: 20vw;
+				align-self: center;
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

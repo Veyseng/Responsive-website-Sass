@@ -33,7 +33,7 @@
 			font-size: 2rem;
 			align-items: center;
 			clip-path: circle(0px at top right);
-			background-color: rgba($color: #000000, $alpha: .75);
+			background-color: rgba($color: #FF3030, $alpha: .75);
 			backdrop-filter: blur(8px);
 			transition: 
 				opacity .4s .5s,
@@ -90,10 +90,77 @@
 			}
 		}
 		
+		
 	}
-	.hero h1{
-		font-size: 2rem;
+	.hero{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.hero-text{
+			font-size: 1rem;
+			h1{
+				font-size: 1rem;
+				span{
+					font-size: 2rem;
+				}
+			}
+		}
 	}
-	 
-
+	.aboutus{
+		display: flex;
+		flex-direction: column;
+		height: 150vh !important;
+		.vision{
+			width: 100% !important;
+			display: flex;
+			flex-direction: column-reverse !important;
+			align-items: center !important;
+			padding: none;
+			.vision-des{
+				width: 100%;
+				align-self: flex-start !important;
+				h1{
+					font-size: 2rem;
+					text-transform: capitalize;
+				}
+				ul{
+					font-size: 1rem;
+				}
+			}
+			.vision-icon{
+				align-self: flex-end !important;
+				img{
+					width: 100% !important;
+				}
+			}
+		}
+		.mission{
+			width: 100% !important;
+			display: flex;
+			flex-direction: column-reverse !important;
+			align-items: center !important;
+			padding: none;
+			.mission-des{
+				width: 100%;
+				align-self: flex-end !important;
+				h1{
+					font-size: 2rem;
+				}
+				ul{
+					background-color: #FF3030;
+					padding: 1rem;
+					color: #fff;
+					border-radius: 20px;
+					font-size: 1rem;
+				}
+			}
+			.mission-icon{
+				align-self: flex-start !important;
+				img{
+					width: 100% !important;
+				}
+			}
+		}
+	}
 }
