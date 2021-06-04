@@ -325,7 +325,11 @@
   .hero .hero-text h1 span {
     font-size: 2rem;
   }
-  .aboutus {
+  .con-aboutus {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .con-aboutus .aboutus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -333,10 +337,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 150vh !important;
+    height: auto !important;
   }
-  .aboutus .vision {
-    width: 100% !important;
+  .con-aboutus .aboutus .whoweare {
+    display: block !important;
+  }
+  .con-aboutus .aboutus .vision {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -347,28 +353,29 @@
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-    padding: none;
+    padding: 0;
   }
-  .aboutus .vision .vision-des {
+  .con-aboutus .aboutus .vision .vision-des {
     width: 100%;
     -ms-flex-item-align: start !important;
         align-self: flex-start !important;
   }
-  .aboutus .vision .vision-des h1 {
+  .con-aboutus .aboutus .vision .vision-des h1 {
     font-size: 2rem;
     text-transform: capitalize;
   }
-  .aboutus .vision .vision-des ul {
+  .con-aboutus .aboutus .vision .vision-des ul {
+    width: 100%;
     font-size: 1rem;
   }
-  .aboutus .vision .vision-icon {
+  .con-aboutus .aboutus .vision .vision-icon {
     -ms-flex-item-align: end !important;
         align-self: flex-end !important;
   }
-  .aboutus .vision .vision-icon img {
+  .con-aboutus .aboutus .vision .vision-icon img {
     width: 100% !important;
   }
-  .aboutus .mission {
+  .con-aboutus .aboutus .mission {
     width: 100% !important;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -382,27 +389,131 @@
             align-items: center !important;
     padding: none;
   }
-  .aboutus .mission .mission-des {
+  .con-aboutus .aboutus .mission .mission-des {
     width: 100%;
     -ms-flex-item-align: end !important;
         align-self: flex-end !important;
   }
-  .aboutus .mission .mission-des h1 {
+  .con-aboutus .aboutus .mission .mission-des h1 {
     font-size: 2rem;
   }
-  .aboutus .mission .mission-des ul {
+  .con-aboutus .aboutus .mission .mission-des ul {
+    width: 100%;
     background-color: #FF3030;
     padding: 1rem;
     color: #fff;
     border-radius: 20px;
     font-size: 1rem;
   }
-  .aboutus .mission .mission-icon {
+  .con-aboutus .aboutus .mission .mission-icon {
     -ms-flex-item-align: start !important;
         align-self: flex-start !important;
   }
-  .aboutus .mission .mission-icon img {
+  .con-aboutus .aboutus .mission .mission-icon img {
     width: 100% !important;
+  }
+  .con-team {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .con-team .our-team {
+    padding: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+  }
+  .con-team .our-team h1 {
+    display: block;
+    margin: 0 !important;
+  }
+  .con-team .our-team .members {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .con-team .our-team .members div.member.member1 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .con-team .our-team .members .member {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin: 0 !important;
+  }
+  .con-team .our-team .members .member .member-info {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    padding-bottom: 1rem !important;
+  }
+  .con-team .our-team .members .member .member-info h3 {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    font-size: 1rem !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .con-team .our-team .members .member .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .5rem;
+  }
+  .con-team .our-team .members .member .img img {
+    width: 100px !important;
   }
 }
 
@@ -619,7 +730,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 100vh;
+  height: auto;
   background: rgba(247, 243, 243, 0.7);
   -webkit-backdrop-filter: saturate(180%) blur(10px);
           backdrop-filter: saturate(180%) blur(10px);

@@ -107,60 +107,130 @@
 			}
 		}
 	}
-	.aboutus{
-		display: flex;
-		flex-direction: column;
-		height: 150vh !important;
-		.vision{
-			width: 100% !important;
+	.con-aboutus{
+		width: 100% !important;
+		padding: 0 !important;
+		.aboutus{
 			display: flex;
-			flex-direction: column-reverse !important;
-			align-items: center !important;
-			padding: none;
-			.vision-des{
-				width: 100%;
-				align-self: flex-start !important;
-				h1{
-					font-size: 2rem;
-					text-transform: capitalize;
+			flex-direction: column;
+			height: auto !important;
+			.whoweare{
+				display: block !important;
+			}
+			.vision{
+				display: flex;
+				flex-direction: column-reverse !important;
+				align-items: center !important;
+				padding: 0;
+				.vision-des{
+					width: 100%;
+					align-self: flex-start !important;
+					h1{
+						font-size: 2rem;
+						text-transform: capitalize;
+					}
+					ul{
+						width: 100%;
+						font-size: 1rem;
+					}
 				}
-				ul{
-					font-size: 1rem;
+				.vision-icon{
+					align-self: flex-end !important;
+					img{
+						width: 100% !important;
+					}
 				}
 			}
-			.vision-icon{
-				align-self: flex-end !important;
-				img{
-					width: 100% !important;
+			.mission{
+				width: 100% !important;
+				display: flex;
+				flex-direction: column-reverse !important;
+				align-items: center !important;
+				padding: none;
+				.mission-des{
+					width: 100%;
+					align-self: flex-end !important;
+					h1{
+						font-size: 2rem;
+					}
+					ul{
+						width: 100%;
+						background-color: #FF3030;
+						padding: 1rem;
+						color: #fff;
+						border-radius: 20px;
+						font-size: 1rem;
+					}
 				}
-			}
-		}
-		.mission{
-			width: 100% !important;
-			display: flex;
-			flex-direction: column-reverse !important;
-			align-items: center !important;
-			padding: none;
-			.mission-des{
-				width: 100%;
-				align-self: flex-end !important;
-				h1{
-					font-size: 2rem;
-				}
-				ul{
-					background-color: #FF3030;
-					padding: 1rem;
-					color: #fff;
-					border-radius: 20px;
-					font-size: 1rem;
-				}
-			}
-			.mission-icon{
-				align-self: flex-start !important;
-				img{
-					width: 100% !important;
+				.mission-icon{
+					align-self: flex-start !important;
+					img{
+						width: 100% !important;
+					}
 				}
 			}
 		}
 	}
+	.con-team{
+		width: 100% !important;
+		height: auto !important;
+		
+		.our-team{
+			padding: 0 !important;
+			display: flex;
+			justify-content: center;
+			height: auto;
+			h1{
+				display: block;
+				margin: 0 !important;
+			}
+			.members{
+				width: 100% !important;
+				display: flex !important;
+				flex-direction: column !important;
+				justify-content: center !important;
+				div.member.member1{
+					display: flex !important;
+					flex-direction: column !important;
+					
+					align-items: center;
+				}
+				.member{
+					width: 100% !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+					justify-content: center !important;
+					margin: 0 !important;
+					.member-info{
+						width: 100% !important;
+						display: flex;
+						flex-direction: column !important;
+						justify-content: center !important;
+						align-items: center !important;
+						padding-bottom: 1rem !important;
+
+						h3{
+							width: 100% !important;
+							display: flex !important;
+							flex-direction: row !important;
+							font-size: 1rem !important;
+							justify-content: center !important;
+							align-items: center !important;
+						}
+						
+					}
+					.img{
+						display: flex;
+						padding: .5rem;
+						img{
+							width: 100px !important;
+						}
+					}
+				}
+				
+			}
+		}
+
+	}	
 }
